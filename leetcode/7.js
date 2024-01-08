@@ -12,10 +12,9 @@ var maxProfit = function (prices) {
   while (l < prices.length) {
     min = Math.min(min, prices[j]);
     max = Math.max(max, prices[l] - min);
+
     l++;
     j++;
   }
   return max;
 };
-
-console.log(maxProfit([7, 1, 5, 3, 6, 4]));
