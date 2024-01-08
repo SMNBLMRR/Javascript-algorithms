@@ -1,5 +1,4 @@
 const array = Array.from({length:20},() => Math.floor(Math.random() * 100));
-console.log(array);
 
 function bubbleSort(arr){
     let isChange = false;
